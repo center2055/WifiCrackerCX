@@ -23,18 +23,12 @@ A modern, user-friendly WiFi password cracking tool with a PyQt5 GUI interface. 
 - pip (Python package installer)
 
 ### Dependencies
-
-Install the required packages:
-
-```bash
-pip install PyQt5 pywifi
-```
+The .bat file installs all depedencies automaticly.
 
 ### Quick Start
 
 1. **Clone or download** this repository
-2. **Install dependencies**: `pip install PyQt5 pywifi`
-3. **Run the application**: `python main.py`
+3. **Run the application**: `START.bat`
 4. **Add password lists**: Use the "Add Password List" button to add .txt files containing passwords
 5. **Scan networks**: Click "Scan Networks" to discover available WiFi networks
 6. **Start cracking**: Select a network and click "Crack Password"
@@ -66,7 +60,6 @@ For the best experience, maximize the application window after launch. The app d
 - **Stay Connected After Crack**: You can now choose whether the app should stay connected to the WiFi after finding the correct password (see Settings).
 - **Windows 11 WiFi Solution**: The app uses Windows `netsh` commands for scanning, connecting, and managing WiFi profiles, bypassing previous limitations of `pywifi` on Windows 11.
 - **Chinese SSID Support**: The app can display and connect to networks with Chinese (and other non-ASCII) names.
-- **UI Polish**: The interface has been modernized and simplified for a better user experience.
 
 ## Legal and Ethical Use
 
@@ -80,7 +73,7 @@ For the best experience, maximize the application window after launch. The app d
 
 - `main.py` - Main application file
 - `README.md` - This documentation
-- `run_wifi_cracker.bat` - Windows batch file for easy launching
+- `START.bat` - Windows batch file for easy set-up and launching
 - `light.txt` - Sample password list
 - `pass_dictionary.txt` - Additional sample password list
 
@@ -105,10 +98,7 @@ For the best experience, maximize the application window after launch. The app d
 ### Getting Help
 
 If you encounter issues:
-1. Check that all dependencies are installed
-2. Ensure your WiFi adapter is working
-3. Try running as administrator (Windows)
-4. Check the console output for error messages
+Open a Issue or contact me via my Discord: centerxx
 
 ## License
 
